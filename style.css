@@ -1,0 +1,115 @@
+.nav{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  padding:10px 0;
+}
+header{
+  background-image: url(image\ 1.png);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(184, 191, 230);
+  background-blend-mode: darken;
+}
+.nav .navbar-item:hover{
+background: none;
+color: azure;
+}
+#blu{
+  background-color: #2094E6;
+  border: none;
+  border-radius: 0px;
+}
+#pad{
+  padding: 100px;
+}
+#pad h1{
+  font-size: 50px;
+}
+
+#img2{
+  margin-top: -150px;
+  margin-left: 250px;
+}
+#pad2{
+  padding-top: 7%;
+  margin-left: -20px;
+  padding: 30px;
+}
+.columns1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.columns1 .column{
+  min-width:250px;
+  align-items: center;
+}
+.columns2{
+  display: flex;
+  flex-wrap: wrap;
+}
+.columns2 .column{
+  min-width:200px;
+  align-items: center;
+}
+#icon{
+  font-size: 40px;
+}
+#mt{
+  padding-top: 17%;
+}
+.end-section{
+  background-image: url(image\ 6.png);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+
+@media(max-width:1024px){
+  .nav{
+    display: block;
+  }
+  .navbar-brand{
+    margin-top: -20px;
+  }
+  .nav #active{
+    margin-top: -50px;
+  }
+  #navbarBasicExample{
+    background-color: #0b3a5c;
+    padding: 15px;
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
+  }
+  #pad{
+    padding: 10px;
+    position: absolute;
+  }
+  #pad h1{
+    font-size: 50px;
+  }
+  #pad p{
+    font-size: 20px;
+  }
+  #block{
+    display: block;
+  }
+  #img2{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  header{
+    height: 75vh;
+  }
+  
+}
